@@ -215,3 +215,59 @@
   color: #6B7280;
   margin: 0;
 }
+
+/* Microsoft Certifications 2026 section */
+.certSection {
+  margin-top: 64px;
+}
+
+.certTitle {
+  font-family: 'Inter', sans-serif;
+  font-size: clamp(24px, 4vw, 36px);
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.02em;
+  color: #111827;
+  margin: 0;
+}
+
+.certMeta {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.certLevel {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  border-radius: 9999px;
+  padding: 3px 10px;
+}
+
+.certLevelFundamentals {
+  background: #EFF6FF;
+  color: #1D4ED8;
+}
+
+.certLevelAssociate {
+  background: #F0FDF4;
+  color: #15803D;
+}
+
+.certLevelExpert {
+  background: #FFF7ED;
+  color: #C2410C;
+}
+
+.certCode {
+  font-family: 'Inter', sans-serif;
+  font-size: 11px;
+  font-weight: 500;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #9CA3AF;
+}
